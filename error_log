@@ -1,0 +1,1 @@
+[26-Sep-2017 07:14:52 UTC] PHP Fatal error:  Can't use method return value in write context in /home/f4bijyg2/public_html/welfare/application/controllers/Employee.php on line 95

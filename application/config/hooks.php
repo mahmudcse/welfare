@@ -1,6 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$hook['post_controller_constructor'] = array(
+        // 'class'    => 'MyClass',
+        'function' => 'profiler_hook',
+        'filename' => 'profiler.php',
+        'filepath' => 'hooks',
+        // 'params'   => array('beer', 'wine', 'snacks')
+);
+
 /*
 | -------------------------------------------------------------------------
 | Hooks
